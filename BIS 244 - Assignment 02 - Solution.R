@@ -17,7 +17,7 @@ STATES <- read_csv(here("covid-19-data","us-states.csv"))
 # Examining the data
 # View(STATES)
 
-# Using filter()to get just Snohomish county in Washington
+# Using filter()to get just PA
 PA <- filter(STATES, state=="Pennsylvania")
 # View(PA)
 
